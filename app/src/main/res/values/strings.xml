@@ -1,0 +1,14 @@
+<resources>
+    <string name="screen_recipes">Recipes</string>
+    <string name="screen_details">Details</string>
+    <string name="screen_ingredients">Ingredients</string>
+    <string name="no_recipes">No recipes found</string>
+    <string name="topapp_back">Back</string>
+    <string name="see_ingredients">See ingredients</string>
+    <string name="recipe_time">Time: %1$s min</string>
+    <string name="recipe_style">Style: %1$s</string>
+    <string name="ingredients_item">Item</string>
+    <string name="ingredients_amount">Amount</string>
+    <string name="ingredients_unit">Unit</string>
+
+</resources>
