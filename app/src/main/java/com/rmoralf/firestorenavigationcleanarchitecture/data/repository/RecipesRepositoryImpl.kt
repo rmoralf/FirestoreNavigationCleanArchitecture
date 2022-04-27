@@ -5,9 +5,13 @@ import com.rmoralf.firestorenavigationcleanarchitecture.domain.model.Recipe
 import com.rmoralf.firestorenavigationcleanarchitecture.domain.model.Response.Error
 import com.rmoralf.firestorenavigationcleanarchitecture.domain.model.Response.Success
 import com.rmoralf.firestorenavigationcleanarchitecture.domain.repository.RecipesRepository
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
+import javax.inject.Singleton
 
+@Singleton
+@ExperimentalCoroutinesApi
 class RecipesRepositoryImpl(
     private val recipesRef: CollectionReference
 ) : RecipesRepository {
