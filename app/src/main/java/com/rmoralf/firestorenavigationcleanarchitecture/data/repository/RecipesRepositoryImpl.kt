@@ -2,12 +2,10 @@ package com.rmoralf.firestorenavigationcleanarchitecture.data.repository
 
 import com.google.firebase.firestore.CollectionReference
 import com.rmoralf.firestorenavigationcleanarchitecture.domain.model.Recipe
-import com.rmoralf.firestorenavigationcleanarchitecture.domain.model.Response
 import com.rmoralf.firestorenavigationcleanarchitecture.domain.model.Response.Error
 import com.rmoralf.firestorenavigationcleanarchitecture.domain.model.Response.Success
 import com.rmoralf.firestorenavigationcleanarchitecture.domain.repository.RecipesRepository
 import kotlinx.coroutines.channels.awaitClose
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 
 class RecipesRepositoryImpl(
